@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "MY_ADDRESS",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/cursoDeSolidity/04_inmutables.sol": "inmutables"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/cursoDeSolidity/04_inmutables.sol": {
+			"keccak256": "0x1f159a69bb776d4fa1d82e6dfb93c069732f161b48c04ec69535dc62226fdba8",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5d7fde642ca8d98758fc296da545f7c592cb9abbbf1ada165dc4f293c2abba97",
+				"dweb:/ipfs/QmbvyVWzJ1MxUwgXRYRYLg48XQZ8carLZQ7JXWszjNLdqh"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "MY_ADDRESS",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/cursoDeSolidity/03_constantes.sol": "constantes"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/cursoDeSolidity/03_constantes.sol": {
+			"keccak256": "0x1235e1ed104ab24cbec4e7a2863e13c22ee9a51405ac341eb8571c45a32ae896",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://323d9b68f7b9f81752b1133000943dbdd7cc18b115f958f95d02b7af9d93106b",
+				"dweb:/ipfs/QmQ3bhLaKA4UdxUEyJyALXTiUgizfwoqGr7JLz2BYwN9qs"
+			]
+		}
+	},
+	"version": 1
+}
