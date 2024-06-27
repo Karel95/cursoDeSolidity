@@ -84,7 +84,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/06_unidadesDeMedida.sol": "readingWriting"
+			"contracts/cursoDeSolidity/06_unidadesDeMedida.sol": "unitsInEth"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -99,11 +99,11 @@
 	},
 	"sources": {
 		"contracts/cursoDeSolidity/06_unidadesDeMedida.sol": {
-			"keccak256": "0xbb20d8c82b30d3e6af26fef34c97fdfca5fe030ff61984ed81445c130f7f78be",
+			"keccak256": "0xcfc419185c32e5d3bb76f895c7e572257962e9c837ff25960ab9d435a296f49e",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c96e77e6605eca74fe68561e813211c69de14e4015d886a10790f8a2d05ca014",
-				"dweb:/ipfs/QmNdwyZqAcZME3n3WawzXKKD7EjzMKvvP775komenLbqgh"
+				"bzz-raw://fe7b9d0e86e6dc9e5becd76755775ffb8c912095a08ab070d7ded2459783e360",
+				"dweb:/ipfs/QmP93S5CSmx5n7vcaM6s3xihjGfxVXTuHbVGP7DXBBX2h6"
 			]
 		}
 	},

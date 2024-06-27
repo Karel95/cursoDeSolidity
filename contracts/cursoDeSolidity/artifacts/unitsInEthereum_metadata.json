@@ -7,12 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getAddress",
+				"name": "isOneEtherV0",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "bool",
 						"name": "",
-						"type": "address"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -20,12 +20,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "getSender",
+				"name": "isOneEtherV1",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "bool",
 						"name": "",
-						"type": "address"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -33,7 +33,33 @@
 			},
 			{
 				"inputs": [],
-				"name": "getTimestamp",
+				"name": "isOneEtherV2",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isOneWei",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "oneEther",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -46,7 +72,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "myNumber",
+				"name": "oneWei",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -55,19 +81,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_myNumber",
-						"type": "uint256"
-					}
-				],
-				"name": "setNumber",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -84,7 +97,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/06_unidadesDeMedida.sol": "readingWriting"
+			"contracts/cursoDeSolidity/07_gas.sol": "unitsInEthereum"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -98,12 +111,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/cursoDeSolidity/06_unidadesDeMedida.sol": {
-			"keccak256": "0xbb20d8c82b30d3e6af26fef34c97fdfca5fe030ff61984ed81445c130f7f78be",
+		"contracts/cursoDeSolidity/07_gas.sol": {
+			"keccak256": "0x6447401a8699059185df4245a307b2831348e1c1f27b177a05226f8ef3133a2e",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c96e77e6605eca74fe68561e813211c69de14e4015d886a10790f8a2d05ca014",
-				"dweb:/ipfs/QmNdwyZqAcZME3n3WawzXKKD7EjzMKvvP775komenLbqgh"
+				"bzz-raw://cc286eeca972b83630d77c9e8fffa0ec31d88473bcc5351ace445b3174487155",
+				"dweb:/ipfs/Qmai4ocnXRPNgt4Cgfvtu8LxLsBtiWxpADSvWDnPJHz8mY"
 			]
 		}
 	},

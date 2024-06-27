@@ -84,7 +84,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/06_unidadesDeMedida.sol": "readingWriting"
+			"contracts/cursoDeSolidity/06_unidadesDeMedida.sol": "units"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -99,11 +99,11 @@
 	},
 	"sources": {
 		"contracts/cursoDeSolidity/06_unidadesDeMedida.sol": {
-			"keccak256": "0xbb20d8c82b30d3e6af26fef34c97fdfca5fe030ff61984ed81445c130f7f78be",
+			"keccak256": "0x741126a040ffb4641b9d814c96d91bfc4ac60eba9ef0c852919157cb25649d94",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c96e77e6605eca74fe68561e813211c69de14e4015d886a10790f8a2d05ca014",
-				"dweb:/ipfs/QmNdwyZqAcZME3n3WawzXKKD7EjzMKvvP775komenLbqgh"
+				"bzz-raw://58233c5d2209fa2f89f2f39adba575f92c74a228747127c64e2835e391dacee2",
+				"dweb:/ipfs/QmSYeacpEsPyTnhgseiZYnzZTxcpEyJe3b13ctWGTdbyHg"
 			]
 		}
 	},

@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "index",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "loopForever",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/cursoDeSolidity/08_condiciones-operadoresTernarios.sol": "gas"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/cursoDeSolidity/08_condiciones-operadoresTernarios.sol": {
+			"keccak256": "0xeed855624e998b1b76fd3d25ab477b788f9dd08731bc136425717c919be7a3a2",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a68cb2ce15f0baba881cb71d3cacdb07673da4b5627b53c690b4317f33f6a467",
+				"dweb:/ipfs/QmTfQW9BEpJEeqxvSitwoqH4aEjoqhfdxPM4WtMB87V2qT"
+			]
+		}
+	},
+	"version": 1
+}
