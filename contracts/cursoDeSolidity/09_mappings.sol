@@ -3,22 +3,35 @@
 pragma solidity >=0.8.2 <0.9.0;
 
 contract mappings {
-    function foo(uint _number) public pure returns(uint) {
-        if(_number < 10){
-            return 1;
-        } else if(_number == 10){
-            return 10;
-        } else {
-            return 100;
-        }
+    //(key=>value)
+    mapping (address => uint) public myMapping;
+
+    function get(address _address) public view returns(uint){
+        return myMapping[_address];
     }
 
-        function ternaryOperator(uint _number) public pure returns(uint) {
-            return (_number < 10) ? 1 : 2;
-            //Es _number menor que 10?
-            //True? devuelve 1
-            //False: devuelve 2
+    function set(address _address,uint _value) public{
+        myMapping[_address] = _value;
+    }
+
+    function remove(address _address) public {
+        delete myMapping [_address];
     }
 }
 
+contract nestedMappings {
+    // nested mapping
+    mapping (address=>mapping (uint=>bool)) public myNestedMapping;
 
+    function get(address _address,uint _number) public view returns(bool){
+        return myNestedMapping[_address][_number];
+    }
+
+    function set(address _address,uint _number,bool _bool) public{
+        myNestedMapping[_address][_number] = _bool;
+    }
+
+    function remove(address _address, uint _number) public {
+        delete myNestedMapping [_address][_number];
+    }
+}

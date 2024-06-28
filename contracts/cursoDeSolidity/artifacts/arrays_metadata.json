@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/10_arrays.sol": "mappings"
+			"contracts/cursoDeSolidity/10_arrays.sol": "arrays"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/cursoDeSolidity/10_arrays.sol": {
-			"keccak256": "0x383c4b3b11cadfe0795dbe03311614eb0bedb1149f5d94edee5111cabeca4f5a",
+			"keccak256": "0x29e59d2dda5073fba77409407abea7e127ed833983ca71805a8f735e3d7b846e",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://2fc9902baa50440af4569f2868c6e72c0d7eb255b292aa5b4c666b9a4fb8e4d2",
-				"dweb:/ipfs/QmakxJaSCTVRTm4pdQid3z3tCtAGoJ6x7uTxGgot9LcZNe"
+				"bzz-raw://d88fa36aacf957165d4436b7362d41ba343d22a4a9b490fdeb52296d4d476ed7",
+				"dweb:/ipfs/QmXqSCFQuFEPtD8tqjia7iEUcCjaeAUkNMja2BJ8TGbrSC"
 			]
 		}
 	},
