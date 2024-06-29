@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/cursoDeSolidity/12_structs.sol": "structs"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/cursoDeSolidity/12_structs.sol": {
+			"keccak256": "0xd79f56a25273b4f267cc324b1974687a18ebc1af6c4298409c010dcfcca38827",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://01c31651f234eea20015f6d244ad9e97a3d5c20789c1900f7ef9e96adca02b78",
+				"dweb:/ipfs/QmUZw16joY1f7D8u5kjVFs5e7YBBu2c3K4X3Y8X3xBpJTr"
+			]
+		}
+	},
+	"version": 1
+}

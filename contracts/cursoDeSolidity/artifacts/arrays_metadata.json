@@ -4,7 +4,137 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arrayFixedLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "createArray",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getArray",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_i",
+						"type": "uint256"
+					}
+				],
+				"name": "push",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_i",
+						"type": "uint256"
+					}
+				],
+				"name": "removeFromArray",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +148,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/10_arrays.sol": "arrays"
+			"contracts/cursoDeSolidity/11_loops.sol": "arrays"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +162,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/cursoDeSolidity/10_arrays.sol": {
-			"keccak256": "0x29e59d2dda5073fba77409407abea7e127ed833983ca71805a8f735e3d7b846e",
+		"contracts/cursoDeSolidity/11_loops.sol": {
+			"keccak256": "0x2876148b0708571736ef1a9f4e64ea7a79cdf1a1ecded11f06615b80d9832089",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://d88fa36aacf957165d4436b7362d41ba343d22a4a9b490fdeb52296d4d476ed7",
-				"dweb:/ipfs/QmXqSCFQuFEPtD8tqjia7iEUcCjaeAUkNMja2BJ8TGbrSC"
+				"bzz-raw://cbe1df7d6cd0414b7b2343604e5a5bbeed6f5b55d9bd3c94038b937ee41d2373",
+				"dweb:/ipfs/QmVDnfn9xwRS7MZofQuEbCfVnpWGiijFacdL1ayr6Hc6Tr"
 			]
 		}
 	},
