@@ -4,7 +4,77 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "myMapping",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "remove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +88,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/10_arrays.sol": "mappings"
+			"contracts/cursoDeSolidity/09_mappings.sol": "mappings"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +102,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/cursoDeSolidity/10_arrays.sol": {
-			"keccak256": "0x383c4b3b11cadfe0795dbe03311614eb0bedb1149f5d94edee5111cabeca4f5a",
+		"contracts/cursoDeSolidity/09_mappings.sol": {
+			"keccak256": "0x6fe95e2403cdd8445f183a022ed5faecd1b95e1bb10f9c096464432aa7dc7047",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://2fc9902baa50440af4569f2868c6e72c0d7eb255b292aa5b4c666b9a4fb8e4d2",
-				"dweb:/ipfs/QmakxJaSCTVRTm4pdQid3z3tCtAGoJ6x7uTxGgot9LcZNe"
+				"bzz-raw://8641297a9a6dd8eb858632bf4ba56b477c7c313cbea5721676ea33162c2fc220",
+				"dweb:/ipfs/Qmf9yVTRWVVcQUYABtUxmjiurZwCcFt9J6Vv4pK6MkFKud"
 			]
 		}
 	},

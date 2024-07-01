@@ -4,7 +4,85 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_description",
+						"type": "string"
+					}
+				],
+				"name": "createGame",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getGame",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "description",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "price",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bool",
+								"name": "played",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct structs.games",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_description",
+						"type": "string"
+					}
+				],
+				"name": "updateDescription",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +111,11 @@
 	},
 	"sources": {
 		"contracts/cursoDeSolidity/12_structs.sol": {
-			"keccak256": "0xd79f56a25273b4f267cc324b1974687a18ebc1af6c4298409c010dcfcca38827",
+			"keccak256": "0xc63f1e59fd5ce67edfe6d0e84773ddfe9c1678b9778fd42992d80e0870affd4d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://01c31651f234eea20015f6d244ad9e97a3d5c20789c1900f7ef9e96adca02b78",
-				"dweb:/ipfs/QmUZw16joY1f7D8u5kjVFs5e7YBBu2c3K4X3Y8X3xBpJTr"
+				"bzz-raw://0e1802bc3ce0d8e04ef64c901923ea5d1edee32e2feb2682091f31bda9fd8b20",
+				"dweb:/ipfs/QmPoVGwpYF1vG31CbSw1vE1UrWdRgdwquu8hopSbCDtQ8U"
 			]
 		}
 	},

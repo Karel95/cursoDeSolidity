@@ -58,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/12_structs.sol": "loops"
+			"contracts/cursoDeSolidity/11_loops.sol": "loops"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -72,7 +72,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/cursoDeSolidity/12_structs.sol": {
+		"contracts/cursoDeSolidity/11_loops.sol": {
 			"keccak256": "0x2f2fe361449081e512d9f4997472884e65979e34f3be3aa9bf78e92dac91197e",
 			"license": "GPL-3.0",
 			"urls": [
