@@ -96,7 +96,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/12_structs.sol": "structs"
+			"contracts/cursoDeSolidity/13_enums.sol": "structs"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -110,7 +110,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/cursoDeSolidity/12_structs.sol": {
+		"contracts/cursoDeSolidity/13_enums.sol": {
 			"keccak256": "0xc63f1e59fd5ce67edfe6d0e84773ddfe9c1678b9778fd42992d80e0870affd4d",
 			"license": "GPL-3.0",
 			"urls": [
