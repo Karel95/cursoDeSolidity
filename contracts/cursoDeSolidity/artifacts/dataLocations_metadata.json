@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/14_memory, storage y calldata.sol": "enums"
+			"contracts/cursoDeSolidity/15_destructuring.sol": "dataLocations"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/cursoDeSolidity/14_memory, storage y calldata.sol": {
-			"keccak256": "0x90634c3587c127d201d37ab27b71b3050cdd14fdd3e0378a825f616444a65b3b",
+		"contracts/cursoDeSolidity/15_destructuring.sol": {
+			"keccak256": "0x6862816651d05d9ca585ac16f7eec85ada9be9e872eb48c8193cbd8d4fc90d87",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://06903bfe33adaf1334a6d56ac4bbe52078037913032d588d3a80e7cdf62a5ac6",
-				"dweb:/ipfs/QmTzVcuy4ETpz1eh7XWpffFjH36SEDZRjrjcQyEJBsfFsp"
+				"bzz-raw://0eb867f5fe5750e93c8e97778b5b6118aa6e79ba6134bb7edd3800a526e5b524",
+				"dweb:/ipfs/QmX5Tbw5yD3cAzaTk5iLchhfkmVc4F4cT81aCR5z3zmMF9"
 			]
 		}
 	},

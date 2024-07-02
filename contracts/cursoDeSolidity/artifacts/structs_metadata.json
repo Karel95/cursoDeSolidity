@@ -9,11 +9,6 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
 						"name": "_description",
 						"type": "string"
 					}
@@ -35,11 +30,6 @@
 				"outputs": [
 					{
 						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
 							{
 								"internalType": "string",
 								"name": "description",
@@ -96,7 +86,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/13_enums.sol": "structs"
+			"contracts/cursoDeSolidity/12_structs.sol": "structs"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -110,12 +100,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/cursoDeSolidity/13_enums.sol": {
-			"keccak256": "0xc63f1e59fd5ce67edfe6d0e84773ddfe9c1678b9778fd42992d80e0870affd4d",
+		"contracts/cursoDeSolidity/12_structs.sol": {
+			"keccak256": "0x194ca1dba2c19d6297c783835c1fc7fa6b39af1aec31ca51dcd669486040d02b",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://0e1802bc3ce0d8e04ef64c901923ea5d1edee32e2feb2682091f31bda9fd8b20",
-				"dweb:/ipfs/QmPoVGwpYF1vG31CbSw1vE1UrWdRgdwquu8hopSbCDtQ8U"
+				"bzz-raw://cd3e75991e3757e115d8d5cfe67b4f2dad445561d20c1ca33365db27da41925c",
+				"dweb:/ipfs/QmeSJP8x5uejpWxy7ETtWoLBSfoJyiz8ziaKBBBRL6dj5i"
 			]
 		}
 	},

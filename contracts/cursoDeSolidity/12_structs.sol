@@ -9,7 +9,6 @@ pragma solidity >=0.8.2 <0.9.0;
 
 contract structs {
     struct games {
-        string name;
         string description;
         uint price; 
         bool played;
@@ -21,8 +20,8 @@ contract structs {
         return gamesList[_index];
     }
 
-    function createGame(string memory _name,string memory _description) public {
-        gamesList.push(games(_name,_description,10,false));
+    function createGame(string memory _description) public {
+        gamesList.push(games(_description,10,false));
     }
 
     function updateDescription(uint _index,string memory _description) public {
