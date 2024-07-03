@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/16_view y pure.sol": "functionsOutputs"
+			"contracts/cursoDeSolidity/16_view y pure.sol": "viewAndPu"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/cursoDeSolidity/16_view y pure.sol": {
-			"keccak256": "0xa279b4b15506211624d8a9113ea11ffe5b0cfe0e3af95d893925a0a9aa408c26",
+			"keccak256": "0x2bb8934d6cafc404087a62ba05a77a78dbf2e4716ef4c2ba49a442ee76d7e00f",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://eedd1ef77363b4cfbfb6bd104ca2dba6e79146086559c011ac14c40447532082",
-				"dweb:/ipfs/QmXz6rRzYUR2mqEZQjqWpTWgKJo18gvpkRMbwqDJiTHjqY"
+				"bzz-raw://ffc0b0c0d890c54d74fd383bcb65511c706f0d390216e354b1f3339a0ea69d46",
+				"dweb:/ipfs/QmYMhJy6NX9Z76KvFQXg2DcCz96fr1nKCnL679TCPFd2sq"
 			]
 		}
 	},
