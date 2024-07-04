@@ -4,7 +4,58 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_foo",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "_array",
+						"type": "uint256[]"
+					}
+				],
+				"name": "funcMemory",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_foo",
+						"type": "string"
+					}
+				],
+				"name": "funcStorage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "myStructs",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "foo",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +69,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/15_destructuring.sol": "dataLocations"
+			"contracts/cursoDeSolidity/14_memory, storage y calldata.sol": "dataLocations"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +83,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/cursoDeSolidity/15_destructuring.sol": {
-			"keccak256": "0x6862816651d05d9ca585ac16f7eec85ada9be9e872eb48c8193cbd8d4fc90d87",
+		"contracts/cursoDeSolidity/14_memory, storage y calldata.sol": {
+			"keccak256": "0x7469f604ea565d7649340ffeb70f8a56143e2e0479c86af94c9301f92de32fcc",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://0eb867f5fe5750e93c8e97778b5b6118aa6e79ba6134bb7edd3800a526e5b524",
-				"dweb:/ipfs/QmX5Tbw5yD3cAzaTk5iLchhfkmVc4F4cT81aCR5z3zmMF9"
+				"bzz-raw://d8dfc788e367a5eca73f715c246833200da8fadc8b27c28506be7a4d71a2fb78",
+				"dweb:/ipfs/QmYbmdqWk81t2ek8GF6prwYgLU1Yn6pMtV4U8DegEEvSEv"
 			]
 		}
 	},

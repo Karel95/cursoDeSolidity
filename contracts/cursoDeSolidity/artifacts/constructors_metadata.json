@@ -9,35 +9,16 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_x",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_y",
+						"name": "_myNumber",
 						"type": "uint256"
 					}
 				],
-				"name": "functionPure",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "y",
-						"type": "uint256"
-					}
-				],
-				"name": "functionView",
+				"inputs": [],
+				"name": "myNumber",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -50,7 +31,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "x",
+				"name": "myParentNumber",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -75,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/16_view y pure.sol": "viewAndPure"
+			"contracts/cursoDeSolidity/20_events.sol": "constructors"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -89,12 +70,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/cursoDeSolidity/16_view y pure.sol": {
-			"keccak256": "0xd61bc95b575997ed4c95d12a3b968c7561319822049c8852cbd9045be21bc442",
+		"contracts/cursoDeSolidity/20_events.sol": {
+			"keccak256": "0xbe095fe944bb2d5f1fc811838fc7358557cd1f90b49ecef8ce075ac10351ad79",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://99e1f240e12e1027569181011c44600374f996e9fcf950687394a4a8b080f348",
-				"dweb:/ipfs/QmecWcZ82mfRzinTaWkFsTX3ntuqsCmRXCz9qWuerqejd9"
+				"bzz-raw://36fc8b6fed292a5651ae830ad62a39f9ba1752cea3813d9e941925c0883cd12b",
+				"dweb:/ipfs/QmewZ34KTgAcCnFRupu7huLaLBxVSsbpP2pG5WxadYyQty"
 			]
 		}
 	},
