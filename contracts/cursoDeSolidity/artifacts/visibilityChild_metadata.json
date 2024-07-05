@@ -6,19 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_myNumber",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [],
-				"name": "myNumber",
+				"name": "externalFunction",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -26,12 +15,38 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "myParentNumber",
+				"name": "myFunc",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "publicFunction",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "x",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -56,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/19_constructors.sol": "constructors"
+			"contracts/cursoDeSolidity/23_interface.sol": "visibilityChild"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -70,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/cursoDeSolidity/19_constructors.sol": {
-			"keccak256": "0xac348391124bf32214ca597536c4bfde2726413d7d95aa4792546c1033dc4a94",
+		"contracts/cursoDeSolidity/23_interface.sol": {
+			"keccak256": "0xcb553f76c16f2af643ac25b8d60bc6c800e19451f52ed83329d9004e16460b5d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://4835c148dcb99f56c192820b61587a34bae25f0dedb6635a0299f8bb76b5b6cf",
-				"dweb:/ipfs/QmSQKQ5ucBbppi25Szuv8KPwmFquPx6BycNkdBBT3EsFQL"
+				"bzz-raw://578e2c9df4e4a028001bbf4ecd5b405e4be50289ad13a875b551d876cbab6741",
+				"dweb:/ipfs/QmeWu4FJywgtNapcNEPfW2Qyutmzxy1Q9iM9CaU2kAnrjs"
 			]
 		}
 	},

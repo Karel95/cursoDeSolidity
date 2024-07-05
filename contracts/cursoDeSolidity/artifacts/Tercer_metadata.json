@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/22_public, private, internal y external.sol": "Name"
+			"contracts/cursoDeSolidity/21_herencia.sol": "Tercer"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/cursoDeSolidity/22_public, private, internal y external.sol": {
-			"keccak256": "0xa11744e07017c9fc81b9e2af486ab3c569fac680add76dc3cdfde57476146f84",
+		"contracts/cursoDeSolidity/21_herencia.sol": {
+			"keccak256": "0x5b2fce2bd6b12ecb47318a3944c06b76d6fabdc3931105f88792bbbbb8698f47",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://2ab1da8a62c1ce6e91652157ef1ce2d218b523376be6a03b59c886465ca4bce2",
-				"dweb:/ipfs/QmfBQekM1gT6mDDLMdM8zQ8cRpY7LMmrq273C6wJUdgBr5"
+				"bzz-raw://584b9cb862c1a84f5523c9038ce23790975f943c232abe3271748d0f1d8a5fc6",
+				"dweb:/ipfs/QmS4RKbBMqiBM8zZ1nJJZvSxyS6HS8UcEWDC3QzMhHTbck"
 			]
 		}
 	},

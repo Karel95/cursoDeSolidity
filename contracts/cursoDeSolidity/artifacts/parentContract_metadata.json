@@ -4,7 +4,32 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_myNumber",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "myParentNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/20_events.sol": "parentContract"
+			"contracts/cursoDeSolidity/19_constructors.sol": "parentContract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +57,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/cursoDeSolidity/20_events.sol": {
-			"keccak256": "0x8a62a9b8ebedaceeb358ecfe81acefd70487cc9a5a2556d3c9052c8990984c9e",
+		"contracts/cursoDeSolidity/19_constructors.sol": {
+			"keccak256": "0xac348391124bf32214ca597536c4bfde2726413d7d95aa4792546c1033dc4a94",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://4c15e4658bd0d9b06bc307614d1ae49263994a8927d204dac9a2527d6c438835",
-				"dweb:/ipfs/QmSQdQpktQobEgK4egS6APZ9hdkMkyf3eHcssJ7KQozGng"
+				"bzz-raw://4835c148dcb99f56c192820b61587a34bae25f0dedb6635a0299f8bb76b5b6cf",
+				"dweb:/ipfs/QmSQKQ5ucBbppi25Szuv8KPwmFquPx6BycNkdBBT3EsFQL"
 			]
 		}
 	},

@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/22_public, private, internal y external.sol": "Name"
+			"contracts/cursoDeSolidity/22_public, private, internal y external.sol": "visibi"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/cursoDeSolidity/22_public, private, internal y external.sol": {
-			"keccak256": "0xa11744e07017c9fc81b9e2af486ab3c569fac680add76dc3cdfde57476146f84",
+			"keccak256": "0xb65a7c06710fe46c68dd3adf0b956ec5ae199e85b21bee01d221dffce5db8229",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://2ab1da8a62c1ce6e91652157ef1ce2d218b523376be6a03b59c886465ca4bce2",
-				"dweb:/ipfs/QmfBQekM1gT6mDDLMdM8zQ8cRpY7LMmrq273C6wJUdgBr5"
+				"bzz-raw://7955468d07103352cf062b866a254d9212068383a882922ef76d5e782a6bbb96",
+				"dweb:/ipfs/QmYcCVeSURtF8Y3Aj9o8gApsz4fCNmw4aHCM5fyFAem79B"
 			]
 		}
 	},

@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/22_public, private, internal y external.sol": "Name"
+			"contracts/cursoDeSolidity/23_interface.sol": "Interface"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/cursoDeSolidity/22_public, private, internal y external.sol": {
-			"keccak256": "0xa11744e07017c9fc81b9e2af486ab3c569fac680add76dc3cdfde57476146f84",
+		"contracts/cursoDeSolidity/23_interface.sol": {
+			"keccak256": "0xdf9855506d75e4ec4e122cf18bdc825032d4de065a0603f165d8f6bff84baaaf",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://2ab1da8a62c1ce6e91652157ef1ce2d218b523376be6a03b59c886465ca4bce2",
-				"dweb:/ipfs/QmfBQekM1gT6mDDLMdM8zQ8cRpY7LMmrq273C6wJUdgBr5"
+				"bzz-raw://b35132bdb2ad06d3434fd19516e787afa93d80cc9aa49981d7e62f95d0ac0080",
+				"dweb:/ipfs/QmQsK6N2aX3aFdwgXZCBwzUhTRsYEqF6fuWDbrbcnR8ziU"
 			]
 		}
 	},

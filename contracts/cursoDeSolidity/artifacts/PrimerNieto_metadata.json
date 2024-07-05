@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/cursoDeSolidity/21_inheritance.sol": "PrimerNieto"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/cursoDeSolidity/21_inheritance.sol": {
+			"keccak256": "0x988fe29e0494ad60a62afb14a4d7f3dcef67829442a8bae4003b41b5a5b145c0",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://2318a3d480f0774d952692c930a5b07600fd6a5c7d41877fcba9700f4b64bf25",
+				"dweb:/ipfs/QmUMRrMdQRH7JqvQ2RYEAcWK4mk369Js4cvhFV2QZEH3p7"
+			]
+		}
+	},
+	"version": 1
+}
