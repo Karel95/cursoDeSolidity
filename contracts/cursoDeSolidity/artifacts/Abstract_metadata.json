@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/25_payable.sol": "Abstract"
+			"contracts/cursoDeSolidity/26_abstract.sol": "Abstract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,7 +32,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/cursoDeSolidity/25_payable.sol": {
+		"contracts/cursoDeSolidity/26_abstract.sol": {
 			"keccak256": "0x56b505ff6770b1b558c2afb403302effbaf270a8c7d5f2ee2cc921592135c367",
 			"license": "GPL-3.0",
 			"urls": [
