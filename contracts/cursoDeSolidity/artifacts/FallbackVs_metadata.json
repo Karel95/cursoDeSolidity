@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/24_fallback vs receive.sol": "Interface"
+			"contracts/cursoDeSolidity/24_fallback vs receive.sol": "FallbackVs"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -47,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/cursoDeSolidity/24_fallback vs receive.sol": {
-			"keccak256": "0x1deba5c9bee87db7f08fdf1b9d4070fd6ac4fba6cc4e2a8f4f1150f41a8e0c70",
+			"keccak256": "0x45f0393b27090c468537907a5262ded69e00037030296b52f1a1833bd58794ec",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b72777177fc89c850564b65dee3b1ba9db95dc06099cda199f5aa0e3d8593491",
-				"dweb:/ipfs/QmY8aP3qNgwBHdXugfEqmc8aqwoZo9A97fxwqeWY17Qudz"
+				"bzz-raw://6808c892bc1c627fdcc28d6675f3768a53403bb8ef4fc0537363c563c42b5f93",
+				"dweb:/ipfs/QmVc43DBhSR64Fp4icPopMj1e5RS7nybV64a8rd6ZBH3bc"
 			]
 		}
 	},

@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/18_modifiers.sol": "m"
+			"contracts/cursoDeSolidity/23_interface.sol": "m"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/cursoDeSolidity/18_modifiers.sol": {
-			"keccak256": "0x246c022512e0a84f37261a1ce5b1ab8317ab5213d208fde1921061c3b2be6837",
+		"contracts/cursoDeSolidity/23_interface.sol": {
+			"keccak256": "0x4036f33fd0e96b97795a8c4990b0bcfbee168616ecb1b3afba2484c1443dd231",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://d26c3af55c3de71f31eec1b2e52756ad9f3ee83d8f70e354e044fe59aebe6dc1",
-				"dweb:/ipfs/QmNbXc5Xg8GsoHRmu1GaSM4Wq54z6vKwmiaMfD4nt6PF6G"
+				"bzz-raw://04ebda327abbb02d2457e49177907885cf493735453770ba8bcad2c30b1ca0a0",
+				"dweb:/ipfs/QmXRxRXP8bUYF9pcb7KuLYdKSZeoGqsrzKBY2FQkw7EnuQ"
 			]
 		}
 	},

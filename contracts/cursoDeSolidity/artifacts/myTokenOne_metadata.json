@@ -7,15 +7,15 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "myToken",
+				"name": "totalSupply",
 				"outputs": [
 					{
-						"internalType": "contract IERC20",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/24_fallback vs receive.sol": "Interface"
+			"contracts/cursoDeSolidity/24_fallback vs receive.sol": "myTokenOne"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -47,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/cursoDeSolidity/24_fallback vs receive.sol": {
-			"keccak256": "0x1deba5c9bee87db7f08fdf1b9d4070fd6ac4fba6cc4e2a8f4f1150f41a8e0c70",
+			"keccak256": "0xd66854b548ed4a8862bb495b965c9e25d1a21e2eb516192879722c7f551345db",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b72777177fc89c850564b65dee3b1ba9db95dc06099cda199f5aa0e3d8593491",
-				"dweb:/ipfs/QmY8aP3qNgwBHdXugfEqmc8aqwoZo9A97fxwqeWY17Qudz"
+				"bzz-raw://291323ad3be3b8c6358faaa1ac15af828393b025cb9aec6aa88a6a1001d97978",
+				"dweb:/ipfs/QmRqqLvnnhbU6uQK2iWnb96vPBXhSBKHEyxPELzASdBD1Q"
 			]
 		}
 	},
