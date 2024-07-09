@@ -4,21 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"name": "foo",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -32,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/27_sendEther.sol": "Abstract"
+			"contracts/cursoDeSolidity/27_sendEther.sol": "receiveE"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -47,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/cursoDeSolidity/27_sendEther.sol": {
-			"keccak256": "0x9c1ca52d28e910c7150343b8498429dcbcf3265eed24c91c006ea1b63228129a",
+			"keccak256": "0x2ce9a6d4c70a8bf3b2de385ddd48669a9b4720a921b767f22adfb938ee19ab8b",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c39932dbff150d6490dec8f94c198b602685f765119cc7a0ff1524bfc9c5893f",
-				"dweb:/ipfs/QmWaFGcAzUnNjb7rF11oxWXoPrv928TdVsXW2jh1R5gavj"
+				"bzz-raw://229ca30f5217b1a12e469ecece4c654c455e07f329f2f7d4fcfc513d550774ee",
+				"dweb:/ipfs/QmegSeHffDoFmSP7NVPKP1ciPDHq2XiPtnQMzLPmjCtXjo"
 			]
 		}
 	},

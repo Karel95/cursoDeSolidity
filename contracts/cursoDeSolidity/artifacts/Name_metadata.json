@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/23_interface.sol": "Name"
+			"contracts/cursoDeSolidity/27_sendEther.sol": "Name"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/cursoDeSolidity/23_interface.sol": {
-			"keccak256": "0x986166159e0b98d5b3f3c8794535f97bcf984c86f364dac04702ba0960012c57",
+		"contracts/cursoDeSolidity/27_sendEther.sol": {
+			"keccak256": "0x30351fd9dad13bf61b173da1dbc809c1804ceadb14e88b5f1980cf857a6b2cff",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://bdfd3a584017b5dd81d5936d433cbb53dcc75d039be9705afabec9ad319cc54f",
-				"dweb:/ipfs/QmaGNcwP9sSqxdWFVJn2rbhnPcDn86tjxkqY6jB2gL4Xma"
+				"bzz-raw://c4025b5c88ffd406fcfbb026d8d78ef76134fc7b0ee54475be9dbb4742227eb7",
+				"dweb:/ipfs/QmYnVoTmrXxnBcZDHyMMnWdmahLu5dAkc8tsh8gEAHq7rL"
 			]
 		}
 	},
