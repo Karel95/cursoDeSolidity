@@ -6,33 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "etherSent",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"internalType": "contract myContract",
+						"name": "_contract",
+						"type": "address"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getMyNumber",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "getMyNumberAndEtherSent",
 				"outputs": [
 					{
@@ -50,20 +30,12 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "myNumber",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
 					{
 						"internalType": "uint256",
 						"name": "_newNumber",
@@ -78,6 +50,11 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
 						"internalType": "uint256",
 						"name": "_newNumber",
 						"type": "uint256"
@@ -86,6 +63,24 @@
 				"name": "setMyNumberAndReceiveEther",
 				"outputs": [],
 				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract myContract",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_newNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "setMyNumberV2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -102,7 +97,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/28_callingOtherContract.sol": "myContract"
+			"contracts/cursoDeSolidity/28_callingOtherContract.sol": "useThisContractToCall"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},

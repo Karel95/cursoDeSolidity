@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/28_callingOtherContract.sol": "Name"
+			"contracts/cursoDeSolidity/28_callingOtherContract.sol": "useThis"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/cursoDeSolidity/28_callingOtherContract.sol": {
-			"keccak256": "0x3de79231e080fcc21c859fc777864eba20fea670d930f2b9c1f4ab5264b31b67",
+			"keccak256": "0x4ad89d2fb5fb01dd1d9aa7e70e228f40a216169bb3aa0a1763e9e786aebbfc44",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b42c5db44cfdfdaa76a3b52dc01377aae905cdbeccd009304d8484e884fb1ce9",
-				"dweb:/ipfs/QmNuF4c1Bx7zy6bBWyK5crps7CyGqJP9jKLwkqdgnZW6h4"
+				"bzz-raw://9d74646d368b8b59b8d9b82540f8d9720f792c586ae02e93fe7661b83175881c",
+				"dweb:/ipfs/QmZxBDydJhHGXezgjvgAYtLLtsrpfXoGBeM5XVgftmRNSi"
 			]
 		}
 	},
