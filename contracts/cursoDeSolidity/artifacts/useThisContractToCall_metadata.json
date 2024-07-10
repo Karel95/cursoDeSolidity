@@ -97,7 +97,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/28_callingOtherContract.sol": "useThisContractToCall"
+			"contracts/cursoDeSolidity/29_lowLevelCall.sol": "useThisContractToCall"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -111,7 +111,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/cursoDeSolidity/28_callingOtherContract.sol": {
+		"contracts/cursoDeSolidity/29_lowLevelCall.sol": {
 			"keccak256": "0x15089ce4bd3050dcd0db2dae834443b288666ff91ab42b7e19e3b688fe670378",
 			"license": "GPL-3.0",
 			"urls": [
