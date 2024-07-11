@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					}
+				],
+				"name": "callFoo",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "data",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/cursoDeSolidity/30_delegateCall.sol": "call"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/cursoDeSolidity/30_delegateCall.sol": {
+			"keccak256": "0x14d43aa87eb093997c7716cdca286c1cb8d42080b4622b2b020e8c9692051cd2",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://cdae2f5113451bfe2fd4ad44afc9dba4ddab23e3df4fdf397f2f80ef05afef18",
+				"dweb:/ipfs/QmeZ5bfFhJDTQ4feaEBT94BtM9enytACk4gKhu8K9bhd4M"
+			]
+		}
+	},
+	"version": 1
+}

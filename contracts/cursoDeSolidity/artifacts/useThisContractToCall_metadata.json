@@ -4,86 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [
-					{
-						"internalType": "contract myContract",
-						"name": "_contract",
-						"type": "address"
-					}
-				],
-				"name": "getMyNumberAndEtherSent",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_contract",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_newNumber",
-						"type": "uint256"
-					}
-				],
-				"name": "setMyNumber",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_contract",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_newNumber",
-						"type": "uint256"
-					}
-				],
-				"name": "setMyNumberAndReceiveEther",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "contract myContract",
-						"name": "_contract",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_newNumber",
-						"type": "uint256"
-					}
-				],
-				"name": "setMyNumberV2",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -112,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/cursoDeSolidity/29_lowLevelCall.sol": {
-			"keccak256": "0x15089ce4bd3050dcd0db2dae834443b288666ff91ab42b7e19e3b688fe670378",
+			"keccak256": "0x21c4d9c733b50cc8e2305247f2dd29c152408f586020ce95440b352f4f464894",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://5de2bc66dcb45ac9516aa290eee3cb49b000235a8e6f115b3df59921842f21e1",
-				"dweb:/ipfs/QmXeVs1UD7udcmVdRURAHHn25cnPmuXBy5qpBowC6DX1HV"
+				"bzz-raw://32b5f00970ee273fc8bd70afad89508c6e5da077714bdd59d7fd7ed20bfdd1c6",
+				"dweb:/ipfs/QmfDc2Tg7XVC115wg2fCGsQQZ9AdPCdaFc1XaFvY8eBHPA"
 			]
 		}
 	},

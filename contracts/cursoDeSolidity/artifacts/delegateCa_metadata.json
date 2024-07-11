@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/29_lowLevelCall.sol": "Name"
+			"contracts/cursoDeSolidity/30_delegateCall.sol": "delegateCa"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/cursoDeSolidity/29_lowLevelCall.sol": {
-			"keccak256": "0xb53d91df70fa24ee7c626d47d9620725b2b8c75df73fd597472f4b881ae06ee1",
+		"contracts/cursoDeSolidity/30_delegateCall.sol": {
+			"keccak256": "0xf9bdfc11eb7e19c84d8963827402a6f0e350f60934f72696af713d16e9025a49",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ac31b843b32224b106a2bca97f4bf65eb54abc33abb4c6c137f2d8d0ed66c919",
-				"dweb:/ipfs/QmZkTUwdLDtqs22ZMPJjavR9poPKJLar7Hbzvhf8HKS9D6"
+				"bzz-raw://6231d2e38e2df9a0464c9dd8c000244a896a6e587bd34dc3534d15d5bf1e6597",
+				"dweb:/ipfs/QmVHYuQhbw5sZBFoy9cnMjPzD8xR8eogUGSv4C6YkPB32d"
 			]
 		}
 	},

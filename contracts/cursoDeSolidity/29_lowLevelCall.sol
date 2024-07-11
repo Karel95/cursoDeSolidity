@@ -1,44 +1,29 @@
 // SPDX-License-Identifier: GPL-3.0
-
 pragma solidity >=0.8.2 <0.9.0;
 
 
-contract useThisContractToCall {
-    //2 maneras de llamar otro contrato:
-    function setMyNumber(address _contract, uint _newNumber) external {
-        myContract(_contract).setMyNumber(_newNumber);
-    }
-    function setMyNumberV2(myContract _contract, uint _newNumber) external {
-        _contract.setMyNumber(_newNumber);
-    }
+contract weWillCallThisContract {
+    event log(string message);
 
-    function setMyNumberAndReceiveEther(address _contract, uint _newNumber) external payable{
-        myContract(_contract).setMyNumberAndReceiveEther{value: msg.value}(_newNumber);
+    receive() external payable {}
+
+    fallback() external payable {
+        emit log("callback was called");
     }
-    function getMyNumberAndEtherSent(myContract _contract) external view returns(uint, uint) {
-        return _contract.getMyNumberAndEtherSent();
+    function foo(string memory _message, uint _x) external payable returns (string memory, uint){
+        return (_message, _x);
     }
 }
 
-contract myContract {
-    uint public myNumber;
-    uint public etherSent = 123;
+contract call {
+    bytes public data;
 
-    function setMyNumber(uint _newNumber) external  {
-        myNumber = _newNumber;
-    }
-
-    function getMyNumber() external view returns(uint) {
-        return myNumber;
-    }
-
-    function setMyNumberAndReceiveEther(uint _newNumber) external payable {
-        myNumber = _newNumber;
-        etherSent = msg.value;
-    }
-
-    function getMyNumberAndEtherSent() external view returns(uint, uint) {
-        return(myNumber, etherSent);
+    function callFoo(address _contract) external payable {
+        (bool succes, bytes memory _data) = _contract.call{value: 111}(abi.encodeWithSignature("foo(string,uint256)", "call foo",123));
+        require(succes, "call failed");
+        data = _data;
     }
 }
+
+//nota: No entendi esta clase jjj.
 
