@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/cursoDeSolidity/32_firmas.sol": "receiver"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/cursoDeSolidity/32_firmas.sol": {
+			"keccak256": "0x9bae809cf141e23e34a8952c3da50c62740637d3dec9a20aec34f00e3b03551d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c9fe46c7e2b0cf9f02579c965cba5881c4a7f5f08c4de7c9bf516ec45d500efe",
+				"dweb:/ipfs/QmWnVFKaBeY8myprrrJyAshSHNA9ASonop2e36xFJXLLNs"
+			]
+		}
+	},
+	"version": 1
+}

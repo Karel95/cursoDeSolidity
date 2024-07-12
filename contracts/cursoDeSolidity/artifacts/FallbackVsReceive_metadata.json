@@ -4,7 +4,47 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "funcName",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "log",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/25_payable.sol": "FallbackVsReceive"
+			"contracts/cursoDeSolidity/24_fallback vs receive.sol": "FallbackVsReceive"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/cursoDeSolidity/25_payable.sol": {
-			"keccak256": "0x84a564ada2bdc838925a55e9f595abcbaa03741fc7d9578095c487679370691b",
+		"contracts/cursoDeSolidity/24_fallback vs receive.sol": {
+			"keccak256": "0xffc643a7e09812f40297071cbbf57f2ccc4850444d120536160edb1a51fd1eaa",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://4152041b5f322060b65eba03c3b5f6f7185cb1b63233a910eaa953d21c579004",
-				"dweb:/ipfs/QmZX8BXMHCFtEzxHQcSUJR5iv5RGCYw7kqpMeYSp9nGL8X"
+				"bzz-raw://53301fc1e6ca69e4cb234f048cb7001c63104cfa39d1911fb397afb85a73f9c1",
+				"dweb:/ipfs/QmZSVrNAG5oFRUb4sPZL2cxVP7oepomqvY9ZixZt1nVghg"
 			]
 		}
 	},

@@ -4,7 +4,58 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "log",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "foo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +69,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/30_delegateCall.sol": "weWillCallThisContract"
+			"contracts/cursoDeSolidity/29_lowLevelCall.sol": "weWillCallThisContract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +83,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/cursoDeSolidity/30_delegateCall.sol": {
-			"keccak256": "0x4f5aacd68a2295a780a601ed781946d41c08507453ee4a5a7a537fb5203320cb",
+		"contracts/cursoDeSolidity/29_lowLevelCall.sol": {
+			"keccak256": "0x14d43aa87eb093997c7716cdca286c1cb8d42080b4622b2b020e8c9692051cd2",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c90cece412ccabc7219de5bf334d496a552ae0420cb40ce71428a95d860b283f",
-				"dweb:/ipfs/QmfV1crYH4nGVcSy9KxziMYPd1FvxXzz9CkV8Wm1259zF4"
+				"bzz-raw://cdae2f5113451bfe2fd4ad44afc9dba4ddab23e3df4fdf397f2f80ef05afef18",
+				"dweb:/ipfs/QmeZ5bfFhJDTQ4feaEBT94BtM9enytACk4gKhu8K9bhd4M"
 			]
 		}
 	},

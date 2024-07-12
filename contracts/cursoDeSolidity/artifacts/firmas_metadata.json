@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/31_selector.sol": "Name"
+			"contracts/cursoDeSolidity/32_firmas.sol": "firmas"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/cursoDeSolidity/31_selector.sol": {
-			"keccak256": "0xa6c97529e087bae038a8485f47a2d1f847ba885ed808a40db9bfb9083a896a8e",
+		"contracts/cursoDeSolidity/32_firmas.sol": {
+			"keccak256": "0x89a17615f01955ee28c045eaf8c5a88cbffb3bd5622bc8fd1fef8f0b3de5742c",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://12a281ad1357e05d3bb046d57acc97cefc5346194ca509981e5fafd0b03e9f7c",
-				"dweb:/ipfs/QmRMsvvwTk99eoNHvMKxfrEgFExTfh4bNFRY3oPNMSZuUf"
+				"bzz-raw://5711036b13731ba8d2c48b0c14f80a906ca8a809a4b7d655c6c7eacee0cbcebd",
+				"dweb:/ipfs/Qmd5Hf1SLCL8xrvA76yYbHL1f9tR5nxQXfG6YYZGMJ18ic"
 			]
 		}
 	},

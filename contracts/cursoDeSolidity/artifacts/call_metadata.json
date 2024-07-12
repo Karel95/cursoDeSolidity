@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/cursoDeSolidity/30_delegateCall.sol": "call"
+			"contracts/cursoDeSolidity/29_lowLevelCall.sol": "call"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -59,7 +59,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/cursoDeSolidity/30_delegateCall.sol": {
+		"contracts/cursoDeSolidity/29_lowLevelCall.sol": {
 			"keccak256": "0x14d43aa87eb093997c7716cdca286c1cb8d42080b4622b2b020e8c9692051cd2",
 			"license": "GPL-3.0",
 			"urls": [
