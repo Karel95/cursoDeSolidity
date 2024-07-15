@@ -4,7 +4,128 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_messageHash",
+						"type": "bytes32"
+					}
+				],
+				"name": "getEthSignedMessage",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					}
+				],
+				"name": "getMessageHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_ethSignedMessageHash",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_sig",
+						"type": "bytes"
+					}
+				],
+				"name": "recoverSigner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "_sig",
+						"type": "bytes"
+					}
+				],
+				"name": "splitSignature",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "r",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "s",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint8",
+						"name": "v",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_signer",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_sig",
+						"type": "bytes"
+					}
+				],
+				"name": "verify",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +154,11 @@
 	},
 	"sources": {
 		"contracts/cursoDeSolidity/32_firmas.sol": {
-			"keccak256": "0x89a17615f01955ee28c045eaf8c5a88cbffb3bd5622bc8fd1fef8f0b3de5742c",
+			"keccak256": "0x56f1824088433e3708582c2246e0b42cbda1bc199dcc596913749d0c40ede841",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://5711036b13731ba8d2c48b0c14f80a906ca8a809a4b7d655c6c7eacee0cbcebd",
-				"dweb:/ipfs/Qmd5Hf1SLCL8xrvA76yYbHL1f9tR5nxQXfG6YYZGMJ18ic"
+				"bzz-raw://026ed7c0c9034dbfcf6e2cced0df1fda0ffedbd56be3859a3fc9e0091f6e0b7f",
+				"dweb:/ipfs/QmTGEm4jCeaQ7SY4Msz3nJ76vRjmtWJCXiPJXe8uapx7HA"
 			]
 		}
 	},
